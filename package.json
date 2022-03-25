@@ -19,7 +19,9 @@
     "solhint": "solhint 'contracts/**/*.sol'",
     "precommit": "yarn typechain && yarn fmt && yarn typecheck && yarn lint && yarn solhint",
     "slither": "slither --solc-disable-warnings --disable-color --exclude-dependencies .",
-    "migrate": "truffle migrate --interactive"
+    "migrate": "truffle migrate --interactive",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -32,10 +34,12 @@
     "url": "https://github.com/centrehq/centre-tokens/issues"
   },
   "homepage": "https://github.com/centrehq/centre-tokens#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@snyk/protect": "latest"
+  },
   "devDependencies": {
     "@openzeppelin/contracts": "^3.1.0",
-    "@truffle/hdwallet-provider": "^1.0.39",
+    "@truffle/hdwallet-provider": "^1.6.0",
     "@typechain/truffle-v5": "^2.0.2",
     "@types/chai": "^4.2.11",
     "@types/lodash": "^4.14.158",
@@ -57,7 +61,7 @@
     "ethereumjs-util": "^7.0.3",
     "ganache-cli": "^6.12.2",
     "googleapis": "^55.0.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.20",
     "prettier": "2.0.5",
     "prettier-plugin-solidity": "1.0.0-alpha.54",
     "q": "^1.5.1",
@@ -73,5 +77,6 @@
   "engines": {
     "node": ">= 12.0.0",
     "yarn": ">= 1.21.1"
-  }
+  },
+  "snyk": true
 }

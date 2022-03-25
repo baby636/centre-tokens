@@ -1,0 +1,50 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - eslint > lodash:
+        patched: '2022-03-25T23:26:17.410Z'
+    - solhint > lodash:
+        patched: '2022-03-25T23:26:17.410Z'
+    - solidity-coverage > lodash:
+        patched: '2022-03-25T23:26:17.410Z'
+    - typechain > lodash:
+        patched: '2022-03-25T23:26:17.410Z'
+    - '@typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash':
+        patched: '2022-03-25T23:26:17.410Z'
+    - eslint > table > lodash:
+        patched: '2022-03-25T23:26:17.410Z'
+    - solhint > eslint > lodash:
+        patched: '2022-03-25T23:26:17.410Z'
+    - '@typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash':
+        patched: '2022-03-25T23:26:17.410Z'
+    - solhint > eslint > table > lodash:
+        patched: '2022-03-25T23:26:17.410Z'
+    - solhint > eslint > inquirer > lodash:
+        patched: '2022-03-25T23:26:17.410Z'
+    - solidity-coverage > @truffle/provider > @truffle/interface-adapter > lodash:
+        patched: '2022-03-25T23:26:17.410Z'
+    - truffle > mocha > yargs-unparser > lodash:
+        patched: '2022-03-25T23:26:17.410Z'
+    - '@truffle/hdwallet-provider > @trufflesuite/web3-provider-engine > @trufflesuite/eth-json-rpc-middleware > ethereumjs-block > async > lodash':
+        patched: '2022-03-25T23:26:17.410Z'
+    - '@truffle/hdwallet-provider > @trufflesuite/web3-provider-engine > @trufflesuite/eth-json-rpc-middleware > ethereumjs-vm > async > lodash':
+        patched: '2022-03-25T23:26:17.410Z'
+    - '@truffle/hdwallet-provider > @trufflesuite/web3-provider-engine > @trufflesuite/eth-json-rpc-filters > json-rpc-engine > async > lodash':
+        patched: '2022-03-25T23:26:17.410Z'
+    - '@truffle/hdwallet-provider > @trufflesuite/web3-provider-engine > @trufflesuite/eth-json-rpc-filters > @trufflesuite/eth-json-rpc-middleware > ethereumjs-block > async > lodash':
+        patched: '2022-03-25T23:26:17.410Z'
+    - '@truffle/hdwallet-provider > @trufflesuite/web3-provider-engine > @trufflesuite/eth-json-rpc-middleware > ethereumjs-vm > async-eventemitter > async > lodash':
+        patched: '2022-03-25T23:26:17.410Z'
+    - '@truffle/hdwallet-provider > @trufflesuite/web3-provider-engine > @trufflesuite/eth-json-rpc-middleware > ethereumjs-vm > ethereumjs-block > async > lodash':
+        patched: '2022-03-25T23:26:17.410Z'
+    - '@truffle/hdwallet-provider > @trufflesuite/web3-provider-engine > @trufflesuite/eth-json-rpc-filters > @trufflesuite/eth-json-rpc-middleware > ethereumjs-vm > async > lodash':
+        patched: '2022-03-25T23:26:17.410Z'
+    - '@truffle/hdwallet-provider > @trufflesuite/web3-provider-engine > @trufflesuite/eth-json-rpc-filters > @trufflesuite/eth-json-rpc-middleware > json-rpc-engine > async > lodash':
+        patched: '2022-03-25T23:26:17.410Z'
+    - '@truffle/hdwallet-provider > @trufflesuite/web3-provider-engine > @trufflesuite/eth-json-rpc-filters > @trufflesuite/eth-json-rpc-middleware > ethereumjs-vm > async-eventemitter > async > lodash':
+        patched: '2022-03-25T23:26:17.410Z'
+    - '@truffle/hdwallet-provider > @trufflesuite/web3-provider-engine > @trufflesuite/eth-json-rpc-filters > @trufflesuite/eth-json-rpc-middleware > ethereumjs-vm > ethereumjs-block > async > lodash':
+        patched: '2022-03-25T23:26:17.410Z'
