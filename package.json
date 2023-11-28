@@ -35,7 +35,7 @@
   "dependencies": {},
   "devDependencies": {
     "@openzeppelin/contracts": "^3.1.0",
-    "@truffle/hdwallet-provider": "^1.0.39",
+    "@truffle/hdwallet-provider": "^2.0.0",
     "@typechain/truffle-v5": "^2.0.2",
     "@types/chai": "^4.2.11",
     "@types/lodash": "^4.14.158",
@@ -63,12 +63,12 @@
     "q": "^1.5.1",
     "solc": "0.6.12",
     "solhint": "^3.1.0",
-    "solidity-coverage": "^0.7.9",
+    "solidity-coverage": "^0.8.0",
     "truffle": "^5.1.35",
     "ts-node": "^8.10.2",
     "typechain": "^2.0.0",
     "typescript": "^3.9.7",
-    "web3": "^1.2.11"
+    "web3": "^4.0.1"
   },
   "engines": {
     "node": ">= 12.0.0",
